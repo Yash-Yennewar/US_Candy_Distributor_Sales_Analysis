@@ -62,7 +62,8 @@ Customer_Type = IF([First_Purchase_Date] = MAX(Candy_Sales[Order Date]), "New", 
 ## 📊 Dashboards & Insights
 ### 🧁 1. US Candy Sales Analysis Dashboard
 
-**KPIs Included:** Revenue, Profit, Units, Cost, Margin%, AOV
+**KPIs Included:** Revenue, Profit, Units, Cost, Margin%, AOV.
+
 **Visuals:**
 - Revenue Trend by Year, Quarter, Month
 - Revenue by State (Map Visualization)
@@ -80,7 +81,8 @@ Customer_Type = IF([First_Purchase_Date] = MAX(Candy_Sales[Order Date]), "New", 
 
 ### 🍫 2. Product Sales Analysis Dashboard
 
-**KPIs Included:** Total Products, Total Units, Total Cost, AOV, Gross Profit
+**KPIs Included:** Total Products, Total Units, Total Cost, AOV, Gross Profit.
+
 **Visuals:**
 - Top 5 Products by Revenue, Profit, Cost, Orders & Units Sold
 - Top 5 Products by Gross Margin %
@@ -96,7 +98,8 @@ Customer_Type = IF([First_Purchase_Date] = MAX(Candy_Sales[Order Date]), "New", 
 
 ### 👥 3. Customer Analysis Dashboard
 
-**KPIs Included:** Total Customers, Order Count, Purchase Frequency, AOV
+**KPIs Included:** Total Customers, Order Count, Purchase Frequency, AOV.
+
 **Visuals:**
 - Top 5 Customers by Revenue, Profit, Cost, Units Sold & Orders
 - Customer Segmentation by Region
@@ -113,7 +116,8 @@ Customer_Type = IF([First_Purchase_Date] = MAX(Candy_Sales[Order Date]), "New", 
 
 ### 🏙️ 4. City & State Analysis Dashboard
 
-**KPIs Included:** Total Revenue, Profit, Units, Cost, Margin %
+**KPIs Included:** Total Revenue, Profit, Units, Cost, Margin %.
+
 **Visuals:**
 - Top 10 Cities & States by Revenue and Profit
 - Top 10 Cities & States by Units Sold & Order Count
