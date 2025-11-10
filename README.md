@@ -17,11 +17,12 @@ The goal of this project is to help the distributor **optimize sales strategies,
 
 ## 🧩 Dataset Information :
 
-**Source:** [Maven Analytics -- US Candy Distributor Dataset](https://mavenanalytics.io/data-playground/us-candy-distributor)
-**Data Structure:** Multiple tables (Fact & Dimension Model) - **Fact
-Table:** `sales_transactions` - **Dimension Tables:** `customer_dim`, `product_dim`, `factory_dim`, `city_dim`, `state_dim`, `region_dim`, `date_dim`
-**Time Period:** 2021 -- 2024
-**Country Coverage:** United States & Canada
+- **Source:** [Maven Analytics -- US Candy Distributor Dataset](https://mavenanalytics.io/data-playground/us-candy-distributor)
+- **Data Structure:** Multiple tables (Fact & Dimension Model)
+- **Fact Table:** `sales_transactions`
+- **Dimension Tables:** `customer_dim`, `product_dim`, `factory_dim`, `city_dim`, `state_dim`, `region_dim`, `date_dim`
+- **Time Period:** 2021 -- 2024
+- **Country Coverage:** United States & Canada
 
 ---
 
@@ -32,17 +33,15 @@ Table:** `sales_transactions` - **Dimension Tables:** `customer_dim`, `product_d
 
 ## 📈 Key Performance Indicators (KPIs)
 
-  KPI                                Description
-  ---------------------------------- --------------------------------------
-  💰 **Total Revenue**               Overall sales revenue generated
-  🧾 **Total Units Sold**            Number of candy units sold
-  📦 **Total Orders**                Number of distinct orders placed
-  🏭 **Total Cost**                  Total cost incurred for all products
-  📊 **Gross Profit**                Total Revenue - Total Cost
-  💹 **Gross Margin %**              Profitability percentage
-  💵 **Average Order Value (AOV)**   Average revenue per order
-  👥 **Total Customers**             Total unique customers
-  🔁 **Purchase Frequency**          Avg. number of orders per customer
+- 💰 **Total Revenue** - Overall sales revenue generated.
+- 🧾 **Total Units Sold** - Number of candy units sold.
+- 📦 **Total Orders** - Number of distinct orders placed.
+- 🏭 **Total Cost** - Total cost incurred for all products.
+- 📊 **Gross Profit** - (Total Revenue - Total Cost).
+- 💹 **Gross Margin %** - Profitability percentage.
+- 💵 **Average Order Value (AOV)** - Average revenue per order.
+- 👥 **Total Customers** - Total unique customers.
+- 🔁 **Purchase Frequency** - Avg. number of orders per customer.
 
 ---
 
@@ -63,13 +62,17 @@ Customer_Type = IF([First_Purchase_Date] = MAX(Candy_Sales[Order Date]), "New", 
 ## 📊 Dashboards & Insights
 ### 🧁 1. US Candy Sales Analysis Dashboard
 
-**KPIs Included:** Revenue, Profit, Units, Cost, Margin%, AOV\
-**Visuals:** - Revenue Trend by Year, Quarter, Month\
-- Revenue by State (Map Visualization)\
+**KPIs Included:** Revenue, Profit, Units, Cost, Margin%, AOV
+**Visuals:**
+- Revenue Trend by Year, Quarter, Month
+- Revenue by State (Map Visualization)
 - Revenue by Region, Division & Factory
 
-**Insights:** - Total revenue: **\$141.78K**, Profit margin: **65.91%** - **Chocolate Division** dominates with 93% of total revenue. - **Lot's O' Nuts** and **Wicked Choccy's** are top-performing
-factories. - The **Atlantic region** drives the highest share of total sales.
+**Insights:**
+- Total revenue: **\$141.78K**, Profit margin: **65.91%**
+- **Chocolate Division** dominates with 93% of total revenue.
+- **Lot's O' Nuts** and **Wicked Choccy's** are top-performing factories.
+- The **Atlantic region** drives the highest share of total sales.
 
 <img src="Screenshots/Dashboard.png" class="img-fluid">
 
@@ -77,12 +80,15 @@ factories. - The **Atlantic region** drives the highest share of total sales.
 
 ### 🍫 2. Product Sales Analysis Dashboard
 
-**KPIs Included:** Total Products, Total Units, Total Cost, AOV, Gross Profit\
-**Visuals:** - Top 5 Products by Revenue, Profit, Cost, Orders & Units Sold\ 
+**KPIs Included:** Total Products, Total Units, Total Cost, AOV, Gross Profit
+**Visuals:**
+- Top 5 Products by Revenue, Profit, Cost, Orders & Units Sold
 - Top 5 Products by Gross Margin %
 
-**Insights:** - **Wonka Bar -- Triple Dazzle Caramel** leads with **\$28.49K revenue**. - **Everlasting Gobstopper** shows the **highest gross margin (80%)**. - Profit and revenue are concentrated among 5 key
-product lines.
+**Insights:**
+- **Wonka Bar -- Triple Dazzle Caramel** leads with **\$28.49K revenue**.
+- **Everlasting Gobstopper** shows the **highest gross margin (80%)**.
+- Profit and revenue are concentrated among 5 key product lines.
 
 <img src="Screenshots/Dashboard1.png" class="img-fluid">
 
@@ -90,12 +96,16 @@ product lines.
 
 ### 👥 3. Customer Analysis Dashboard
 
-**KPIs Included:** Total Customers, Order Count, Purchase Frequency, AOV\
-**Visuals:** - Top 5 Customers by Revenue, Profit, Cost, Units Sold & Orders\
+**KPIs Included:** Total Customers, Order Count, Purchase Frequency, AOV
+**Visuals:**
+- Top 5 Customers by Revenue, Profit, Cost, Units Sold & Orders
 - Customer Segmentation by Region
 
-**Insights:** - Total Customers: **5,044**, Average Order Value: **\$16.58** - **Repeat Customers** generate majority of revenue. - Top customer (ID 131807) contributes **\$454.40 in revenue**. - Highest
-customer concentration in the **Pacific Region (32%)**.
+**Insights:**
+- Total Customers: **5,044**, Average Order Value: **\$16.58** 
+- **Repeat Customers** generate majority of revenue.
+- Top customer (ID 131807) contributes **\$454.40 in revenue**.
+- Highest customer concentration in the **Pacific Region (32%)**.
 
 <img src="Screenshots/Dashboard2.png" class="img-fluid">
 
@@ -103,12 +113,15 @@ customer concentration in the **Pacific Region (32%)**.
 
 ### 🏙️ 4. City & State Analysis Dashboard
 
-**KPIs Included:** Total Revenue, Profit, Units, Cost, Margin %\
-**Visuals:** - Top 10 Cities & States by Revenue and Profit\
+**KPIs Included:** Total Revenue, Profit, Units, Cost, Margin %
+**Visuals:**
+- Top 10 Cities & States by Revenue and Profit
 - Top 10 Cities & States by Units Sold & Order Count
 
-**Insights:** - **New York City** leads with **\$12.5K revenue**, followed by **Los Angeles**. - **California** is the top-performing state with **\$27.9K revenue**. - High sales density in coastal and
-metropolitan areas.
+**Insights:**
+- **New York City** leads with **\$12.5K revenue**, followed by **Los Angeles**.
+- **California** is the top-performing state with **\$27.9K revenue**.
+- High sales density in coastal and metropolitan areas.
 
 <img src="Screenshots/Dashboard3.png" class="img-fluid">
 
@@ -125,16 +138,15 @@ metropolitan areas.
 
 ## 🧾 How to Use
 
-1.  Download the `.pbix` file: **US_Candy_Distributor_Analysis_1.pbix**\
-2.  Open with **Power BI Desktop**\
+1.  Download the `.pbix` file: **US_Candy_Distributor_Analysis_1.pbix**
+2.  Open with **Power BI Desktop**
 3.  Explore dashboard pages using filters for:
-    -   Year\
-    -   Country (United States / Canada)\
+    -   Year
+    -   Country (United States / Canada)
     -   Customer / Product filters
 
 ---
 
 ## 🏁 Conclusion
-
 This Power BI project delivers a **comprehensive end-to-end sales analysis**, enabling actionable insights into **revenue growth, customer behavior, and regional performance**.
 It demonstrates key **data analytics and visualization skills** suitable for Data Analyst and Business Intelligence roles.
